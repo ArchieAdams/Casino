@@ -8,6 +8,7 @@ public class FirstPersonLook : MonoBehaviour
     Vector2 appliedMouseDelta;
     public float sensitivity = 1;
     public float smoothing = 2;
+    public bool controller;
 
 
     void Reset()
@@ -23,8 +24,9 @@ public class FirstPersonLook : MonoBehaviour
 
     void Update()
     {
-        // Get smooth mouse look.
         Vector2 smoothMouseDelta = Vector2.Scale(new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")), Vector2.one * sensitivity * smoothing);
+        // Get smooth mouse look.
+        
         appliedMouseDelta = Vector2.Lerp(appliedMouseDelta, smoothMouseDelta, 1 / smoothing);
         currentMouseLook += appliedMouseDelta;
         currentMouseLook.y = Mathf.Clamp(currentMouseLook.y, -90, 90);

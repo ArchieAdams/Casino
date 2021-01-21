@@ -5,7 +5,7 @@ public class Jump : MonoBehaviour
     [SerializeField]
     GroundCheck groundCheck;
     Rigidbody _rigidBody;
-    private Animator _animator;
+    public Animator _animator;
     public float jumpStrength = 2;
     public event System.Action Jumped;
 
@@ -24,15 +24,17 @@ public class Jump : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Input.GetButtonDown("Jump") && groundCheck.isGrounded)
-        {
-            _rigidBody.AddForce(Vector3.up * 100 * jumpStrength);
-            Jumped?.Invoke();
-            _animator.SetBool("Jump", true);
-        }
-        else
+        if (groundCheck.isGrounded)
         {
             _animator.SetBool("Jump", false);
+        }
+
+        if (Input.GetButtonDown("Jump") && groundCheck.isGrounded)
+        {
+            _animator.SetBool("Jump", true);
+            _rigidBody.AddForce(Vector3.up * 100 * jumpStrength);
+            Jumped?.Invoke();
+            
         }
     }
 }

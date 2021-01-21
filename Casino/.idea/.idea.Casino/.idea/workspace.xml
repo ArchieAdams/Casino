@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79b1049-dfaa-42ed-8947-598295d813ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AnimationControllers/Movement.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AnimationControllers/Movement.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Jump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Crouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Crouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FirstPersonLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FirstPersonMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Jump.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Jump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Crouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FirstPersonMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FirstPersonLook.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611257011656</updated>
-      <workItem from="1611257017870" duration="3793000" />
+      <workItem from="1611257017870" duration="8265000" />
     </task>
     <servers />
   </component>
