@@ -3,103 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e4bd139-14f4-4e46-972b-485b4ae96017" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Idle.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Idle.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Jump.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Jump.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Run.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Run.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@RunBackwards.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@RunBackwards.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Sprint.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Sprint.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Walk.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/BasicMotions@Walk.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/Movement.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimationControllers/Movement.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle01 - Idle02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle01 - Idle02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle02 - Idle01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle02 - Idle01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Idle02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Jump01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Jump01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Run01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Run01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@RunBackwards01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@RunBackwards01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Sprint01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Sprint01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Walk01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BasicMotions@Walk01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Basic Motions Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Basic Motions Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Be Kind Sim.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Be Kind Sim.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Be Kind Sim.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Be Kind Sim.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Be Kind Sim.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Be Kind Sim.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/First person controller bare.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/First person controller bare.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/First person controller full.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/First person controller full.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Crouch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Crouch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonLook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonLook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FirstPersonMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GroundCheck.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GroundCheck.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Jump.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Jump.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Zoom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Zoom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BasicMotionsTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/BasicMotionsTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Be Kind Sim.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Be Kind Sim.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +15,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
       </list>
     </option>
   </component>
@@ -155,9 +66,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612023195014</updated>
-      <workItem from="1612023205588" duration="37000" />
+      <workItem from="1612023205588" duration="1425000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />

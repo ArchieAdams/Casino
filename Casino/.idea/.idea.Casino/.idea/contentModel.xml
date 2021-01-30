@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="Menu Code" t="Include">
+            <e p="Bet.cs" t="Include" />
             <e p="Game.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
             <e p="OptionsMenu.cs" t="Include" />
