@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,13 +7,21 @@ public class Bet : MonoBehaviour
     public Text currentBalance;
     public Text remainingBalance;
 
+    private int balance;
     private int currentBet;
-    public int balance;
 
-    private void Start()
+    public void OnStart()
     {
-        currentBalance.text = "Balance : " + balance;
+        balance = PlayerPrefs.GetInt("Balance");
+        Debug.Log(balance);
+        DisplayBalance(balance);
     }
+
+    private void DisplayBalance(int bal)
+    {
+        currentBalance.text = "Balance : " + bal;
+    }
+    
 
     public void ChangeBet(int bet)
     {
@@ -55,12 +60,13 @@ public class Bet : MonoBehaviour
 
     public void BetButton()
     {
-        remainingBalance.text = "Your balance will be :"+(balance - currentBet);
+        remainingBalance.text = "Your balance will be : "+(balance - currentBet);
     }
     
     public void ConfirmButton()
     {
-        balance -= currentBet;
-    }
-
+        PlayerPrefs.SetInt("Bet", currentBet);
+        PlayerPrefs.SetInt("Balance", (balance-currentBet));
+        new HigherOrLower().OnStart();
+    } 
 }

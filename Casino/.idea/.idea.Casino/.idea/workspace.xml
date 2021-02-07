@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4bd139-14f4-4e46-972b-485b4ae96017" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/100.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/All.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/All.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Count.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Count.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +48,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
       </list>
     </option>
@@ -71,7 +104,7 @@
       <updated>1612023195014</updated>
       <workItem from="1612023205588" duration="1425000" />
       <workItem from="1612190803180" duration="2075000" />
-      <workItem from="1612702899173" duration="2341000" />
+      <workItem from="1612702899173" duration="17611000" />
     </task>
     <servers />
   </component>
@@ -80,4 +113,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="194" key="RiderGenerateDialog" timestamp="1612716172145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="194" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612716172145" />
+  </component>
 </project>
