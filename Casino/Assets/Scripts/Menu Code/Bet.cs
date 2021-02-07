@@ -7,32 +7,60 @@ using UnityEngine.UI;
 public class Bet : MonoBehaviour
 {
     public Text currentCount;
+    public Text currentBalance;
+    public Text remainingBalance;
 
-    private int _currentBet;
+    private int currentBet;
     public int balance;
-    
+
+    private void Start()
+    {
+        currentBalance.text = "Balance : " + balance;
+    }
+
     public void ChangeBet(int bet)
     {
-        if (this._currentBet + bet > 0)
+        if (currentBet + bet > balance)
         {
-            this._currentBet += bet;
+            currentBet = balance;
+        }
+        else if (currentBet + bet < 0)
+        {
+            currentBet = 0;
         }
         else
         {
-            this._currentBet = 0;
+            currentBet += bet;
         }
+        DisplayBet();
+
     }
     
-    public void SetBet(int option)
+    public void SetBet()
     {
-        if (option == -1)
-        {
-            
-        }
+        currentBet = 0;
+        DisplayBet();
+    }
+    public void BetAll()
+    {
+        currentBet = balance;
+        DisplayBet();
     }
 
-    private void Update()
+    private void DisplayBet()
     {
-        currentCount.text = _currentBet.ToString();
+        currentCount.text = currentBet.ToString();
+        Debug.Log(currentBet);
     }
+
+    public void BetButton()
+    {
+        remainingBalance.text = "Your balance will be :"+(balance - currentBet);
+    }
+    
+    public void ConfirmButton()
+    {
+        balance -= currentBet;
+    }
+
 }

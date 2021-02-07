@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4bd139-14f4-4e46-972b-485b4ae96017" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Casino.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612023195014</updated>
       <workItem from="1612023205588" duration="1425000" />
+      <workItem from="1612190803180" duration="2075000" />
+      <workItem from="1612702899173" duration="2341000" />
     </task>
     <servers />
   </component>
