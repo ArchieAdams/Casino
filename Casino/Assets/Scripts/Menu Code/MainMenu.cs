@@ -31,7 +31,6 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        new Bet().OnStart();
     }
     
     public void QuitGame()

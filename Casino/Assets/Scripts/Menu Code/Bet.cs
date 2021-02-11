@@ -10,7 +10,7 @@ public class Bet : MonoBehaviour
     private int balance;
     private int currentBet;
 
-    public void OnStart()
+    public void Start()
     {
         balance = PlayerPrefs.GetInt("Balance");
         Debug.Log(balance);
@@ -67,6 +67,5 @@ public class Bet : MonoBehaviour
     {
         PlayerPrefs.SetInt("Bet", currentBet);
         PlayerPrefs.SetInt("Balance", (balance-currentBet));
-        new HigherOrLower().OnStart();
     } 
 }

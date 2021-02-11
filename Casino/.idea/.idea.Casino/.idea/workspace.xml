@@ -22,21 +22,10 @@
     <list default="true" id="9e4bd139-14f4-4e46-972b-485b4ae96017" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/100.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/All.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/All.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Background.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprits/Count.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +40,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +96,7 @@
       <workItem from="1612023205588" duration="1425000" />
       <workItem from="1612190803180" duration="2075000" />
       <workItem from="1612702899173" duration="17611000" />
+      <workItem from="1613037341666" duration="5542000" />
     </task>
     <servers />
   </component>
@@ -123,11 +115,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="733" y="194" key="RiderGenerateDialog" timestamp="1612716172145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="194" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612716172145" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613042774797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613042774797" />
   </component>
 </project>

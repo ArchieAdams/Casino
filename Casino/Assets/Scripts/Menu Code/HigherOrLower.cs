@@ -22,7 +22,7 @@ public class HigherOrLower : MonoBehaviour
     
     private List<int> cardValues = new List<int>();
 
-    public void OnStart()
+    public void Start()
     {
         cardValues = new List<int>();
         DisplayCard(leftCard, GetRandomCard());
