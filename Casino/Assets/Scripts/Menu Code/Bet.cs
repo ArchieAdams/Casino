@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,11 +11,21 @@ public class Bet : MonoBehaviour
     private int balance;
     private int currentBet;
 
+    public GameObject betButton;
+
     public void Start()
     {
-        balance = PlayerPrefs.GetInt("Balance");
-        Debug.Log(balance);
+        balance = PlayerPrefs.GetInt(PlayerPrefs.GetString("Name") + "Balance");
+        if (balance == 0)
+        {
+            Application.Quit();
+        }
         DisplayBalance(balance);
+    }
+
+    private void Update()
+    {
+        betButton.SetActive(currentBet != 0);
     }
 
     private void DisplayBalance(int bal)
@@ -65,7 +76,9 @@ public class Bet : MonoBehaviour
     
     public void ConfirmButton()
     {
+        
         PlayerPrefs.SetInt("Bet", currentBet);
-        PlayerPrefs.SetInt("Balance", (balance-currentBet));
+        PlayerPrefs.SetInt(PlayerPrefs.GetString("Name") + "Balance", (balance-currentBet));
+        
     } 
 }

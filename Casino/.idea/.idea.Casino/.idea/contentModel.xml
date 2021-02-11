@@ -12,12 +12,13 @@
             <e p="Bet.cs" t="Include" />
             <e p="Blackjack.cs" t="Include" />
             <e p="EndOfGame.cs" t="Include" />
-            <e p="Game.cs" t="Include" />
             <e p="HigherOrLower.cs" t="Include" />
+            <e p="Login.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
             <e p="OptionsMenu.cs" t="Include" />
-            <e p="PlayMenu.cs" t="Include" />
+            <e p="Slots.cs" t="Include" />
           </e>
+          <e p="Reset.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

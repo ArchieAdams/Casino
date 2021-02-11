@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public void Awake()
     {
+        //PlayerPrefs.DeleteAll();
         if ((PlayerPrefs.GetInt("key", -1234) == -1234))
         {
             
@@ -16,9 +17,9 @@ public class MainMenu : MonoBehaviour
             //Game Options presets
             PlayerPrefs.SetFloat("Music Volume", -16.5f);
             PlayerPrefs.SetFloat("SFX Volume", 0f);
-            //Game
-            PlayerPrefs.SetInt("Balance", 1000);
+            PlayerPrefs.SetString("Name", "Archie");
         }
+        
     }
 
     public void Start()
@@ -29,10 +30,6 @@ public class MainMenu : MonoBehaviour
         sfxMixer.SetFloat("GameSFX", sfxVolume);
     }
 
-    public void PlayGame()
-    {
-    }
-    
     public void QuitGame()
     {
         Application.Quit();

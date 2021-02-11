@@ -24,8 +24,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Game.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Game.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/PlayMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/PlayMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +48,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/GamePicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Reset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +111,7 @@
       <workItem from="1612023205588" duration="1425000" />
       <workItem from="1612190803180" duration="2075000" />
       <workItem from="1612702899173" duration="17611000" />
-      <workItem from="1613037341666" duration="5542000" />
+      <workItem from="1613037341666" duration="13031000" />
     </task>
     <servers />
   </component>
@@ -122,6 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="194" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612716172145" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1613077599404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613077599404" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613042774797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

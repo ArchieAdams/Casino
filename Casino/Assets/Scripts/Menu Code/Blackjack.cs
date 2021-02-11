@@ -143,7 +143,6 @@ public class Blackjack : MonoBehaviour
     {
         BlackJack.SetActive(false);
         EndOfGame.SetActive(true);
-        new EndOfGame().OnStart();
     }
     
 }
