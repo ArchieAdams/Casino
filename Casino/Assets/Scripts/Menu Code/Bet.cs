@@ -11,21 +11,21 @@ public class Bet : MonoBehaviour
     private int balance;
     private int currentBet;
 
-    public GameObject betButton;
+    public GameObject betButtonObject;
 
     public void Start()
     {
         balance = PlayerPrefs.GetInt(PlayerPrefs.GetString("Name") + "Balance");
         if (balance == 0)
         {
-            Application.Quit();
+            Application.Quit(); //Quits if you have no money
         }
         DisplayBalance(balance);
     }
 
     private void Update()
     {
-        betButton.SetActive(currentBet != 0);
+        betButtonObject.SetActive(currentBet != 0); //Stops you betting 0 by only showing the button if you have bet money
     }
 
     private void DisplayBalance(int bal)
@@ -36,28 +36,29 @@ public class Bet : MonoBehaviour
 
     public void ChangeBet(int bet)
     {
-        if (currentBet + bet > balance)
+        if (currentBet + bet > balance) //Stops you going over your balance
         {
             currentBet = balance;
         }
-        else if (currentBet + bet < 0)
+        else if (currentBet + bet < 0) //Stops you going below 0
         {
             currentBet = 0;
         }
         else
         {
-            currentBet += bet;
+            currentBet += bet; //Adds to bet
         }
         DisplayBet();
 
     }
     
-    public void SetBet()
+    public void SetBet()  //Set bet to 0
     {
         currentBet = 0;
         DisplayBet();
     }
-    public void BetAll()
+    
+    public void BetAll()  //Set bet to balance
     {
         currentBet = balance;
         DisplayBet();
@@ -66,17 +67,15 @@ public class Bet : MonoBehaviour
     private void DisplayBet()
     {
         currentCount.text = currentBet.ToString();
-        Debug.Log(currentBet);
     }
 
-    public void BetButton()
+    public void BetButton()   //Shows what your balance will be if you lose
     {
         remainingBalance.text = "Your balance will be : "+(balance - currentBet);
     }
     
-    public void ConfirmButton()
+    public void ConfirmButton()  //Saves your balance and bet
     {
-        
         PlayerPrefs.SetInt("Bet", currentBet);
         PlayerPrefs.SetInt(PlayerPrefs.GetString("Name") + "Balance", (balance-currentBet));
         

@@ -25,15 +25,12 @@ public class Slots : MonoBehaviour
 
     public void SpinButton()
     {
-        SpinSlots();
-    }
-
-    private void SpinSlots()
-    {
         List<int> spins = new List<int>();
         Sprite[] sprites = Resources.LoadAll<Sprite>("Sprites/Slots Icon");
+        
         slots = new List<Image>(){slot0,slot1,slot2};
-        foreach (var slot in slots)
+        
+        foreach (var slot in slots) //Loops through each slot and and randomises them
         {
             int spin = Random.Range(0, 9);
             spins.Add(spin);

@@ -25,7 +25,7 @@ public class HigherOrLower : MonoBehaviour
     public void Start()
     {
         cardValues = new List<int>();
-        DisplayCard(leftCard, GetRandomCard());
+        DisplayCard(leftCard, GetRandomCard());  //Gets first card 
         currentBet.text = PlayerPrefs.GetInt("Bet").ToString();
     }
 
@@ -36,34 +36,25 @@ public class HigherOrLower : MonoBehaviour
         {
             cardValue = (Random.Range(0, cardNums.Count));
 
-            if (!(cardValues.Contains(cardValue)))
-            {
-                Debug.Log("A");
-                
+            if (!(cardValues.Contains(cardValue)))  //Checks that the card is not already in the list if not loops till card is not in the list
+            { 
                 cardValues.Add(cardValue);
-                foreach (var value in cardValues)
-                {
-                    Debug.Log(value);
-                }
                 break;
             }
-            
-            
         }
-        
         return cardNums[cardValue] + suits[Random.Range(0, suits.Count)];
     }
 
     private void DisplayCard(Image image, string card)
     {
-        image.sprite = Resources.Load <Sprite>("Sprites/Cards/" + card);
+        image.sprite = Resources.Load <Sprite>("Sprites/Cards/" + card);  //Displays card
     }
     
 
     public void Option(string HorL)
     {
         DisplayCard(rightCard, GetRandomCard());
-        if (cardValues[0]<cardValues[1] && HorL.Equals("Higher") || cardValues[0]>cardValues[1] && HorL.Equals("Lower") )
+        if (cardValues[0]<cardValues[1] && HorL.Equals("Higher") || cardValues[0]>cardValues[1] && HorL.Equals("Lower") )  //Gets waht button the press and if it is right
         {
             gameOutcome.text = "You Win";
         }
@@ -77,7 +68,7 @@ public class HigherOrLower : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(5);  //Waits 5 seconds then moves
         ShowResult();
     }
 

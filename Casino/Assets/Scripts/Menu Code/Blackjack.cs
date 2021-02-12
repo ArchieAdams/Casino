@@ -36,24 +36,10 @@ public class Blackjack : MonoBehaviour
 
     public void Start()
     {
-        Reset();
-        Hit();
+        Hit();  //Deals the first 2 cards
         Hit();
         currentBet.text = PlayerPrefs.GetInt("Bet").ToString();
         cardImage.sprite = Resources.Load <Sprite>("Sprites/Cards/JS");
-    }
-
-    private void Reset()
-    {
-        playerTotal = 0;
-        dealerTotal = 0;
-        playerBust = false;
-        dealerBust = false;
-        stood = false;
-        playerCards.text = "";
-        dealerCards.text = "";
-        dealerTotalText.text = "Dealer is Total:";
-
     }
 
     private int GetCard()
@@ -70,7 +56,7 @@ public class Blackjack : MonoBehaviour
     
     private void DisplayScore(Text totalText, int total, string name)
     {
-        if (IsBust(total))
+        if (IsBust(total))  //Checks if they are bust
         {
             totalText.text = name + " is Bust (" + total + ")";
         }
@@ -85,9 +71,9 @@ public class Blackjack : MonoBehaviour
         return total > 21;
     }
 
-    private void GetDealerCards()
+    private void GetDealerCards()   //Runs through the dealers move
     {
-        while (dealerTotal<16)
+        while (dealerTotal<16)  //Loops till the score is greater than 16
         {
             int cardValue = GetCard();
             dealerTotal += cardPoints[cardValue];
@@ -101,9 +87,9 @@ public class Blackjack : MonoBehaviour
         }
     }
     
-    public void Hit()
+    public void Hit()  
     {
-        if (!playerBust && !stood)
+        if (!playerBust && !stood)  //Checks if the player is bust or standing if not the deals a card
         {
             int cardValue = GetCard();
             playerTotal += cardPoints[cardValue];
@@ -135,7 +121,7 @@ public class Blackjack : MonoBehaviour
     
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(5);  //Waits 5 seconds then moves
         ShowResult();
     }
 

@@ -20,20 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4bd139-14f4-4e46-972b-485b4ae96017" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Casino/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/GameMusic.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/GameSFX.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/GameSFX.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Life Lost.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Life Lost.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Low Lives.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Low Lives.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Scream.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Scream.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Timer Low.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Timer Low.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Win.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Win.mp3.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Reset.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Reset.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Game.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Game.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/PlayMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/PlayMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +67,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/GamePicker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Reset.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/EndOfGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Login.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Bet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/HigherOrLower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Blackjack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu Code/Slots.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +121,8 @@
       <workItem from="1612023205588" duration="1425000" />
       <workItem from="1612190803180" duration="2075000" />
       <workItem from="1612702899173" duration="17611000" />
-      <workItem from="1613037341666" duration="13031000" />
+      <workItem from="1613037341666" duration="13144000" />
+      <workItem from="1613152163678" duration="5801000" />
     </task>
     <servers />
   </component>

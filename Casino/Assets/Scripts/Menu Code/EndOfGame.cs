@@ -16,15 +16,18 @@ public class EndOfGame : MonoBehaviour
         int bet = PlayerPrefs.GetInt("Bet");
         if (Title.text.Equals("You Win"))
         {
+            FindObjectOfType<AudioManager>().Play("Correct");
             PrizeText.text = "+" + (bet*2);
             PlayerPrefs.SetInt("Balance", PlayerPrefs.GetInt(PlayerPrefs.GetString("Name") + "Balance") + bet * 2);
             BalanceText.text = "Your balance is now : " + PlayerPrefs.GetInt("Balance").ToString();
         }
         else
         {
+            FindObjectOfType<AudioManager>().Play("Incorrect");
             PrizeText.text = "-" + (bet);
             BalanceText.text = "Your balance is now : " + PlayerPrefs.GetInt(PlayerPrefs.GetString("Name") + "Balance").ToString();
         }
+        PlayerPrefs.SetString("Reset", "True");
     }
 
     public void Reset()

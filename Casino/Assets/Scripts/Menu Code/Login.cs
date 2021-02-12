@@ -7,27 +7,25 @@ using UnityEngine.UI;
 public class Login : MonoBehaviour
 {
     public InputField name;
-    public GameObject continueButton;
+    public GameObject continueButtonObject;
 
     private void Start()
     {
-        name.text = PlayerPrefs.GetString("Name");
+        name.text = PlayerPrefs.GetString("Name");  //Displays the lasted logged in user
     }
 
     private void Update()
     {
-        continueButton.SetActive(name.text.Length > 0);
+        continueButtonObject.SetActive(name.text.Length > 0);   //Checks if you have typed anything
     }
 
     public void Continue()
     {
         PlayerPrefs.SetString("Name",name.text);
 
-        if (!PlayerPrefs.HasKey(name.text + "Balance"))
+        if (!PlayerPrefs.HasKey(name.text + "Balance"))   //If new user sets default balance (1000)
         {
-            Debug.Log("Hello");
             PlayerPrefs.SetInt(name.text + "Balance", 1000);
         }
-        
     }
 }
